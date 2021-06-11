@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zoo_keeping *.css
+recursive-include zoo_keeping *.csv
+recursive-include zoo_keeping *.html
+recursive-include zoo_keeping *.ico
+recursive-include zoo_keeping *.js
+recursive-include zoo_keeping *.json
+recursive-include zoo_keeping *.md
+recursive-include zoo_keeping *.png
+recursive-include zoo_keeping *.py
+recursive-include zoo_keeping *.svg
+recursive-include zoo_keeping *.txt
+recursive-exclude zoo_keeping *.pyc
